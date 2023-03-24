@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Debug|Win32|D:\Study\file\demo\OpenGL\summarize\assimp-5.0.1\build\|

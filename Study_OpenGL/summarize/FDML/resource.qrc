@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/shaders">
+        <file>shaders/shader_light.frag</file>
+        <file>shaders/shader_light.vert</file>
+        <file>shaders/shader_withoutTexture.frag</file>
+        <file>shaders/shader_withoutTexture.vert</file>
+        <file>shaders/shader_withTexture.frag</file>
+        <file>shaders/shader_withTexture.vert</file>
+        <file>shaders/shader_ThreeD.vert</file>
+        <file>shaders/shader_ThreeD.frag</file>
+        <file>shaders/shader_ThreeD_multiLight.frag</file>
+        <file>shaders/shader_ThreeD_multiLight.vert</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/awesomeface.png</file>
+        <file>images/container2.png</file>
+        <file>images/container2_specular.png</file>
+        <file>images/lighting_maps_specular_color.png</file>
+        <file>images/matrix.jpg</file>
+        <file>images/PandaLisa.jpg</file>
+        <file>images/rabbit.png</file>
+        <file>images/wall.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,11 @@
+release/cdlopenglwidget.o
+release/main.o
+release/mainwindow.o
+release/mesh.o
+release/meshforonce.o
+release/model.o
+release/setenvironmentdialog.o
+release/qrc_resource.o
+release/moc_cdlopenglwidget.o
+release/moc_mainwindow.o
+release/moc_setenvironmentdialog.o

@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/shaders">
+        <file>shader_fundamental.frag</file>
+        <file>shader_fundamental.vert</file>
+        <file>shader_texture.frag</file>
+        <file>shader_texture.vert</file>
+        <file>shader_texture_manual.frag</file>
+        <file>shader_texture_manual.vert</file>
+        <file>shader_3D.frag</file>
+        <file>shader_3D.vert</file>
+    </qresource>
+    <qresource prefix="/texture">
+        <file>images/rabbit.png</file>
+        <file>images/PandaLisa.jpg</file>
+    </qresource>
+</RCC>

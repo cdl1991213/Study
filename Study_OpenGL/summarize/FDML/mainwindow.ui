@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>959</width>
+    <height>676</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Hello myOpenGL!</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../summarize/summarize_01_2D/images/rabbit.png</normaloff>../summarize/summarize_01_2D/images/rabbit.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+	background-color:rgb(170, 170, 127);
+	color:rgb(0, 0, 0);
+	font:10pt &quot;幼圆&quot;;
+}
+
+QMenuBar{
+	background-color:rgb(152, 170, 132);
+	color:rgb(60, 60, 60);
+}
+
+QToolBar{
+	background-color:rgb(152, 170, 132);
+}
+
+QAction:checked{
+	background-color:rgb(150, 150, 150);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="cdlOpenGLWidget" name="openGLWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>130</y>
+      <width>501</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>959</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>工具</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_clear"/>
+   <addaction name="action_triangle"/>
+   <addaction name="action_rectangle"/>
+   <addaction name="action_rectangle2"/>
+   <addaction name="action_3D_1"/>
+   <addaction name="action_3D_2"/>
+   <addaction name="action_setEnvironment"/>
+   <addaction name="action_setWireFrame"/>
+  </widget>
+  <action name="action_triangle">
+   <property name="text">
+    <string>三角形</string>
+   </property>
+  </action>
+  <action name="action_rectangle">
+   <property name="text">
+    <string>矩形1</string>
+   </property>
+  </action>
+  <action name="action_3D_1">
+   <property name="text">
+    <string>3D1</string>
+   </property>
+  </action>
+  <action name="action_clear">
+   <property name="text">
+    <string>清空</string>
+   </property>
+  </action>
+  <action name="action_setWireFrame">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>线框模式</string>
+   </property>
+  </action>
+  <action name="action_rectangle2">
+   <property name="text">
+    <string>矩形2</string>
+   </property>
+  </action>
+  <action name="action_3D_2">
+   <property name="text">
+    <string>3D2</string>
+   </property>
+  </action>
+  <action name="action_setEnvironment">
+   <property name="text">
+    <string>环境设置</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>cdlOpenGLWidget</class>
+   <extends>QOpenGLWidget</extends>
+   <header location="global">cdlopenglwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

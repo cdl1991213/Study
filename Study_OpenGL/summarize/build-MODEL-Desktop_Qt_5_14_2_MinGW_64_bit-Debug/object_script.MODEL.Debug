@@ -1,0 +1,11 @@
+debug/cdlopenglwidget.o
+debug/main.o
+debug/mainwindow.o
+debug/mesh.o
+debug/meshforonce.o
+debug/model.o
+debug/setenvironmentdialog.o
+debug/qrc_resource.o
+debug/moc_cdlopenglwidget.o
+debug/moc_mainwindow.o
+debug/moc_setenvironmentdialog.o

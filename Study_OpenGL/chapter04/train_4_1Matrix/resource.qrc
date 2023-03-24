@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>texture_image/blueTexture.jpg</file>
+        <file>texture_image/goldTexture.jpg</file>
+    </qresource>
+    <qresource prefix="/shaders">
+        <file>shapes1.frag</file>
+        <file>shapes1.vert</file>
+        <file>shapes2.frag</file>
+        <file>shapes2.vert</file>
+    </qresource>
+</RCC>
