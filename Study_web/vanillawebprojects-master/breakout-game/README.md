@@ -1,13 +1,13 @@
-## Breakout! Game
+## 突围! 游戏
 
-Game where you control a paddle with the arrow keys to bounce a ball up to break bricks. This app uses the HTML5 canvas element and API
+游戏中，你用方向键控制一个球拍，将球弹起，打碎砖块。这个应用程序使用HTML5画布元素和API。
 
-## Project Specifications
+## 项目规格
 
-- Draw elements on canvas
-- Use canvas paths to draw shapes
-- Add animation with requestAnimationFrame(cb)
-- Move paddle on arrow key press
-- Add collision detection
-- Keep score
-- Add rules button with slider
+- 在画布上绘制元素
+- 使用画布路径来绘制形状
+- 使用 requestAnimationFrame(cb) 添加动画。
+- 在按下方向键时移动划子
+- 添加碰撞检测
+- 保持分数
+- 添加带有滑块的规则按钮

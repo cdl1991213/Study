@@ -1,12 +1,12 @@
-1. Create canvas context 
-2. Create and draw ball 
-3. Create and draw paddle 
-4. Create bricks 
-5. Draw score 
-6. Add update() - Animate - requestAnimationFrame(cb) 
-7. Move paddle 
-8. Keyboard event handlers to move paddle 
-9. Move ball 
-10. Add wall bounderies 
-11. Increase score when bricks break
-12. Lose - redraw bricks, reset score
+1. 创建画布环境 
+2. 创建并绘制球 
+3. 创建并绘制球拍 
+4. 创造砖块 
+5. 绘制分数 
+6. 添加update() - Animate - requestAnimationFrame(cb) 
+7. 移动划桨 
+8. 移动球拍的键盘事件处理程序 
+9. 移动球 
+10. 添加墙的边界 
+11. 砖块破裂时增加分数
+12. 失败--重画砖块，重置分数
