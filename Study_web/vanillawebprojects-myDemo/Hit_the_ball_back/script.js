@@ -255,30 +255,12 @@ rulesBtn.addEventListener('click', () => rules.classList.add('show'));
 closeBtn.addEventListener('click', () => rules.classList.remove('show'));
 
 
+
 function main(){
     update();
 }
 main();
 
-
-
-let p1 = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve('success')
-    }, 1000)
-});
-
-let p2 = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        reject('failed')
-    }, 500)
-});
-
-Promise.race([p1, p2]).then((result) => {
-    console.log(result);
-}).catch((err) => {
-    console.log(err);
-})
 
 
 
