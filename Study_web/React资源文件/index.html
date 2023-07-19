@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 容器 -->
+    <div id="test"></div>
+
+    <!-- 引入react核心库 -->
+    <srcipt type = "text/javascript" src="./js/react.development.js"></srcipt>
+    <!-- 引入react-dom,支持react操作DOM -->
+    <srcipt type = "text/javascript" src="./js/react-dom.development.js"></srcipt>
+    <!-- 引入babel,将jsx语法转换为js -->
+    <srcipt type = "text/javascript" src="./js/babel.min.js"></srcipt>
+
+    <script type="text/babel">
+        // type="text/babel"表示该处代码由babel编译
+
+        // 1. 创建组件
+        class myComponent extends React.Component{
+            // 对标签属性进行类型、必要性限制
+            static propTypes = {
+                school:PropTypes.string,isRequired, // 限制类型为string,必传
+                height:PropTypes.number,    // 限制类型为number
+                speak:PropTypes.func,   // 限制类型为function
+            }   
+            // 指定默认标签属性值
+            static defaultProps = {
+                school:'cdl',
+                height:170
+            }
+            render(){
+                const {school, height, speak} = this.props
+                return <h1>类式组件props属性{school},{height},{speak()}</h1>
+            }
+        }
+        // 2. 渲染组件到页面
+        function speak(){
+            console.log('say sth')
+        }
+        const data = {school:'zjut', speak:speak}
+        ReactDOM.render(<Component {...data} />, document.getElementById('test'))
+
+    </script>
+</body>
+</html>
