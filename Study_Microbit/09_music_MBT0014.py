@@ -1,0 +1,1 @@
+from microbit import *#write your program:while True:  pin0.write_analog(255)#打开蜂鸣器   sleep(1000)   pin0.write_analog(0)#关闭蜂鸣器  sleep(1000)

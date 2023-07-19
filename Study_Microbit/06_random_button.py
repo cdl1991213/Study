@@ -1,0 +1,1 @@
+from microbit import *#write your program:import randomwhile True:    if button_a.is_pressed():        display.scroll(str(random.randint(1, 6)))

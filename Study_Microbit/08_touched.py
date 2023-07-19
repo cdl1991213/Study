@@ -1,0 +1,1 @@
+from microbit import *#write your program:try:    while True:        #被触摸        if pin0.is_touched():            display.show(Image.HAPPY)        else:            display.show(Image.SAD)except:    display.clear()

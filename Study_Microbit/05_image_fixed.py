@@ -1,0 +1,1 @@
+from microbit import *#write your program:from microbit import displayfrom microbit import sleepfrom microbit import Imagetry:    while True:        display.show(Image.HAPPY)        sleep(1000)        display.clear()        sleep(1000)#捕捉到异常except:  display.clear()

@@ -1,0 +1,1 @@
+from microbit import *#write your program:while True:    val = pin0.read_analog()    dat = val*(3.3/10.24)    print(dat)    display.scroll(str(dat))    sleep(50)

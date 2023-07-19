@@ -1,0 +1,1 @@
+from microbit import *#write your program:# https://bxy.dfrobot.com.cn/bit_musicimport music#music.play(music.NYAN)#pin=pin_speaker 表示使用microbit V2板载的蜂鸣器播放，如果要使用引脚P0的蜂鸣器播放则可以改成pin=pin0music.play(music.ENTERTAINER, pin=pin0, wait=False)

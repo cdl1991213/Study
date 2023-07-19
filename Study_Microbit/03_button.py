@@ -1,0 +1,1 @@
+from microbit import *#write your program:while True:    #按钮A    if button_a.is_pressed():        display.show(Image.HAPPY)    #按钮B    elif button_b.is_pressed():        break    else:        display.show(Image.SAD)display.clear()

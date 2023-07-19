@@ -1,0 +1,1 @@
+from microbit import *#write your program:while True:    #判断microbit的状态    #如果朝上gesture=face up    gesture = accelerometer.current_gesture()    if gesture == "face up":        display.show(Image.HAPPY)    else:        display.show(Image.ANGRY)

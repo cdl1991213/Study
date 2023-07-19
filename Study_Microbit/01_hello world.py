@@ -1,0 +1,1 @@
+from microbit import *#write your program:display.scroll("Hello World!")

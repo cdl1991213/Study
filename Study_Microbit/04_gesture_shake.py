@@ -1,0 +1,1 @@
+from microbit import *#write your program:from microbit import *import randoma=["a","b","c"]while True:    #摇晃    if accelerometer.is_gesture("shake"):          display.scroll(random.choice(a))

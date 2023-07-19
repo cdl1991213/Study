@@ -1,0 +1,1 @@
+from microbit import *#write your program:from microbit import displayfrom microbit import Imagefrom microbit import sleepImage1=Image("99999:80000:77777:00006:55555")#show the number "5",the value of light 0-9try:    while True:        display.show(Image1)        sleep(1000)        display.clear()        sleep(1000)except:  display.clear()

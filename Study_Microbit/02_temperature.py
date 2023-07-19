@@ -1,0 +1,1 @@
+from microbit import *#write your program:while True:    print(temperature())    sleep(200)
