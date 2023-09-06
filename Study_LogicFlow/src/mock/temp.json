@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "id": "node_id_1",
+            "type": "rect",
+            "x": 200,
+            "y": 100,
+            "text": "template-1-node-1"
+        },
+        {
+            "id": "node_id_2",
+            "type": "rect",
+            "x": 200,
+            "y": 200,
+            "text": "template-1-node-2"
+        },
+        {
+            "id": "node_id_3",
+            "type": "rect",
+            "x": 200,
+            "y": 300,
+            "text": "template-1-node-3"
+        },
+        {
+            "id": "node_id_4",
+            "type": "rect",
+            "x": 200,
+            "y": 400,
+            "text": "template-1-node-4"
+        }
+    ],
+    "edges": [
+        {
+            "id": "edge_id_1",
+            "type": "line",
+            "sourceNodeId": "node_id_1",
+            "targetNodeId": "node_id_2",
+            "startPoint": {
+                "x": 200,
+                "y": 100
+            },
+            "endPoint": {
+                "x": 200,
+                "y": 200
+            },
+            "pointsList": [],
+            "properties": {}
+        },
+        {
+            "id": "edge_id_2",
+            "type": "line",
+            "sourceNodeId": "node_id_2",
+            "targetNodeId": "node_id_3",
+            "startPoint": {
+                "x": 200,
+                "y": 200
+            },
+            "endPoint": {
+                "x": 200,
+                "y": 300
+            },
+            "pointsList": [],
+            "properties": {}
+        },
+        {
+            "id": "edge_id_3",
+            "type": "line",
+            "sourceNodeId": "node_id_3",
+            "targetNodeId": "node_id_4",
+            "startPoint": {
+                "x": 200,
+                "y": 300
+            },
+            "endPoint": {
+                "x": 200,
+                "y": 400
+            },
+            "pointsList": [],
+            "properties": {}
+        }
+    ]
+}
